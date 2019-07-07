@@ -1,0 +1,115 @@
+		.cv{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			margin-left: 150px;
+			margin-right: 150px;
+		}
+		.head{
+			background-color: #006F69;
+			display: flex;
+			flex-direction: column;
+			width: 2000px;
+			padding-top: 30px;
+			padding-left: 30px;
+			color: white;
+
+		}
+
+		img{
+			position: absolute;
+			right: 135px;
+			top: 8%;
+			width: 200px;
+			height: 200px;
+			border: 15px solid  #006F69;
+
+		}
+
+		.section{display: grid;
+			grid-template-rows: auto;
+			border-top: 7px solid #006F69;
+			margin-top: 120px;}
+
+		#experience {
+			
+			width: 800px;
+			height: 290px;
+			border-collapse: collapse;
+			margin-right: 50px;
+			
+		}
+
+		th {
+			
+			text-align: left;
+
+		}
+
+		#skill {
+			width: 660px;
+			height: 290px;
+			font-size: 20px;
+		}
+
+		#education {
+			width: 800px;
+			height: 100px;
+			margin-right: 50px;
+	
+		}
+
+		#events {
+			width: 660px;
+			height: 100px;	
+		}
+
+		.events ul {
+			list-style-type:none;
+		}
+		
+		#intrest{
+	
+			width: 800px;
+			height: 200px;
+			list-style-position: initial;
+			margin-right: 50px;
+		}
+
+		#intrest ul {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+		}
+
+		#language{
+			width: 660px;
+			height: 200px;
+			list-style-position: initial;
+		}
+		#language ul {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+		}
+		progress{
+			color: #F0EAD4;
+		}
+
+		footer {
+   			
+  			color:white;
+  			background-color: #006F69;
+			display: grid;
+			grid-template-columns: 30% 30%;
+			margin-left: 150px;
+			margin-right: 150px; 	
+
+		}
+
+		.color1{
+			color: #445257;
+
+		}
+
+		
